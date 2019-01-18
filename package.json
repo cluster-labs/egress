@@ -1,0 +1,30 @@
+{
+  "name": "egress",
+  "version": "1.0.0",
+  "description": "A Distributed Storage Gateway on IPFS",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cluster-labs/egress.git"
+  },
+  "keywords": [
+    "ipfs",
+    "ipfscloud",
+    "egress"
+  ],
+  "author": "Vaibhav Saini (vasa)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cluster-labs/egress/issues"
+  },
+  "homepage": "https://github.com/cluster-labs/egress#readme",
+  "dependencies": {
+    "electron": "^4.0.1",
+    "ipfs": "^0.34.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
